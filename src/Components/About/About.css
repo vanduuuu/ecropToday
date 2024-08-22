@@ -1,0 +1,71 @@
+/* Banner.css */
+
+.banner {
+    position: relative;
+    width: 100%; /* Banner width is 80% of the screen */
+    height: 300px; /* Adjust height as needed */
+    margin: 0 auto; /* Centers the banner horizontally */
+    background-image: url('../../Assets/background/ecropToday-About.webp'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  }
+  .breadcrumb {
+    background: #8080802e;
+    padding: 10px;
+}
+  .banner-text {
+    position: relative;
+    color: white;
+    font-size: 2rem; /* Adjust font size as needed */
+    z-index: 1; /* Ensure text appears above the overlay */
+    text-align: center;
+  }
+  .banner-text p{
+    padding:0;
+    font-size:18px;
+    color:#ffffff
+  }
+  .banner-text h1{
+    font-size: 50px;
+    color: orange;
+    text-shadow: -2px -1px 2px white;
+  }
+  .about-border::after {
+    content: "";
+    height: 3px;
+    width: 100px;
+    background-color: orange;
+    display: block;
+    margin: auto;
+    margin-top: 10px;}
+.aboutt-info{
+    background-color: #ffffff47;
+}
+    .aboutt-info h1 {
+        color: #32757e;
+        text-shadow: 2px 2px 2px #a77f06;
+        font-weight: 800;
+    }
+    .aboutt-info span{
+        color: orange;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .aboutt-info p{
+        font-size: 19px;
+        font-weight: 400;
+        font-family:Arial, Helvetica, sans-serif;
+    }

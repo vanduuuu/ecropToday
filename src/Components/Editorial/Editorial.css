@@ -1,0 +1,16 @@
+
+.editorial-head i {
+    font-size: 50px;
+    margin-top: 25px;
+    color: #32757e;
+    text-shadow: 2px 2px 2px #a77f06;
+        width: 120px;
+        display: flex;
+        margin:auto;
+    
+}
+.editorial-card h1 {
+    color: #32757e !important;
+    text-shadow: 2px 2px 2px #a77f06 !important;
+    font-weight: 800;
+}

@@ -1,0 +1,50 @@
+/* CSS for the Cards Component */
+.editorial-card .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 80%;
+    padding-bottom: 15px;
+    background-color: #fff6;
+    margin: 60px auto;
+    position: relative; /* Ensure positioning context for the child */
+}
+.row{
+    justify-content: center;
+}
+
+.editorial-card .card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(100deg, rgb(17, 109, 17), #09a0a0);
+    padding: 5px;
+    margin-top: -45px;
+}
+
+.editorial-card .cont {
+    width: 90%;
+    height: 0;
+    overflow: hidden;
+    text-align: center;
+    transition: height 0.6s ease;
+    position: absolute; /* Prevent content shifting */
+    bottom: 0; /* Position it at the bottom of the card */
+    left: 50%;
+    transform: translateX(-50%); /* Center it horizontally */
+}
+
+.editorial-card .card:hover .cont {
+    height: 55px; /* Adjust as needed */
+    background-color: #d4cfcf;
+    padding:5px 0;
+    border-radius: 10px 10px 0px 0;
+}
+
+.editorial-card .cont p {
+    color: #0f1783;
+    font-weight: bold;
+    display: block;
+}

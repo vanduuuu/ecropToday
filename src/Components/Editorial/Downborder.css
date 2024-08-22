@@ -1,0 +1,7 @@
+.downborder {
+    text-align: center;
+}
+.downborder img {
+    width: 35%;
+    transform: scaleY(-1);
+}

@@ -1,0 +1,78 @@
+.footer-area {
+    background: #123838;
+    color: #fff;
+    padding: 40px 0;
+  }
+  footer{
+    padding:50px;
+    background-color: #123838;
+     color: #fff
+  }
+  .foot{
+    background-color:transparent;
+  }
+  .social2 img {
+    width: 28px;
+    /* margin: 0 10px; */
+}
+  ul{
+    padding:0;
+  }
+  .foot-i-info{
+    padding-left: 20px;
+  }
+  .recent-posts li {
+    margin-bottom: 10px;
+    list-style: none;
+  }
+  .recent-posts li a{
+    color:#fff;
+  }
+  .foot-4 li .foot-icon i {
+    height: 39px;
+    width: 39px;
+    background: rgba(253, 145, 3, 0.178);
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    border: 1px dashed rgba(247, 135, 7, 0.445);
+    font-size: 18px;
+    margin-right: 13px;
+}
+  .contact-info .foot-icon {
+    width: 30px;
+    color: orange;
+  }
+  
+  .cpy-right {
+    font-size: 14px;
+  }
+  
+  .whatsapp_btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 24px;
+  }
+  .social2 li {
+    display: inline-flex;
+    max-width: 34px;
+    margin-bottom: 10px;
+    padding: 0px 3px 0px;
+}
+  #scroll-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    cursor: pointer;
+  }
+
+  @media(max-width:768px){
+    .foot-1, .foot-2, .foot-3{
+      margin-top:20px;
+        }
+  }

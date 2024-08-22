@@ -1,0 +1,170 @@
+/* Fullscreen overlay for the body */
+body.overlay-active::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999; /* Above the content but below the menu */
+  transition: opacity 0.3s ease;
+  opacity: 1;
+  pointer-events: none; /* Allow clicks to pass through the overlay */
+}
+
+/* Navbar menu container */
+.navbar {
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+.navbar-collapse {
+  position: fixed;
+  top: 13%;
+  right: 0;
+  width: 52%;
+  height: 100vh;
+  background-color: #0c1c1cfa;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  text-align: center;
+  line-height: 38px;
+  padding: 30px;
+}
+
+/* Show the navbar menu when it is toggled */
+.navbar-collapse.show {
+  transform: translateX(0); /* Slide in from the right */
+}
+
+/* Hide the toggle button and collapse menu on larger screens */
+.navbar-toggler {
+  background-color: white !important;
+  z-index: 1000;
+  border: none;
+}
+.logoimg {
+  width: 12%;
+  margin: 0 27px;
+}
+.logoimg img {
+  width: 100%;
+}
+.navbar-expand-lg .navbar-nav {
+  justify-content: center;
+  align-items: center;
+}
+.logoimgMob {
+  display: none;
+}
+
+/* Sticky navbar */
+.navbar {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure it stays above other content */
+  background-color: #fff; /* Adjust color as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+/* -------------------------------------navbar responsive ends here------------------------------------ */
+
+.nav-link {
+  font-size: 18px !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  margin-right: 10px;
+  color: #2b9240;
+  transition: all .5s;
+  font-weight: 600;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  background-color: #bdd18b;
+  width: 100%;
+}
+.navbar-expand-lg .navbar-nav .nav-link:active {
+  color: blue;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #183838;
+  font-weight: 500;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover::before {
+  width: 100%;
+}
+.navbar-expand-lg .navbar-nav .nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #7db509;
+  transition: width 0.7s ease;
+}
+
+/* Ensure hover effect on li elements */
+.navbar-expand-lg .navbar-nav .nav-item:hover {
+  background-color: #bdd18b; /* Background color on hover */
+}
+
+.navbar-expand-lg .navbar-nav .nav-item {
+  position: relative; /* Needed for the positioning of the pseudo-element */
+}
+
+/* Media Queries */
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: none; /* Hide toggle button on larger screens */
+  }
+
+  .navbar-collapse {
+    display: flex; /* Show menu normally */
+    position: static; /* Reset position for larger screens */
+    transform: none; /* Reset transform */
+    height: auto; /* Allow height to adjust automatically */
+    background-color: transparent; /* Transparent background */
+    line-height: normal; /* Reset line height */
+    padding: 0; /* Reset padding */
+  }
+
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    display: block; /* Show the collapse menu on small screens */
+  }
+  .logoimgMob {
+    display: block;
+    width: 40% !important;
+  }
+  .logoimgMob img {
+    width: 100%;
+  }
+  .logoimg {
+    display: none;
+  }
+  .navbar-collapse {
+    top: 21%;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link:hover {
+    background-color: transparent;
+    width: 100%;
+    border-bottom: 3px solid green;
+  }
+  .navbar-expand-lg .navbar-nav .nav-item:hover {
+    background-color: #bdd18b;
+    display: block;
+    width: 100%;
+    color: #183838;
+  }
+  
+}
+
+@media (max-width: 600px) {
+  .navbar-collapse {
+    top: 15%;
+    width: 100%;
+  }
+}

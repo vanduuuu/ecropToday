@@ -1,0 +1,32 @@
+.carousel-caption{
+    background: #0006;}
+    .carousel-caption h5,.carousel-caption p{
+        color: orange;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .carousel-caption i{
+        color: white;
+    }
+    .h-zoom{
+        transition: transform 0.3s ease;
+    }
+    .h-zoom:hover{
+        transform: scale(1.05);
+    }
+    .carousel-inner1 {
+        overflow: hidden;
+        height: 245px;
+    }
+    .carousel-inner1 img{
+        width:100%;
+    }
+    @media(max-width:768px){
+        .hh{
+            margin-top:40px;
+        }
+        .hh .col-md-12{
+            margin-top:20px;
+        }
+    }

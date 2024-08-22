@@ -1,0 +1,43 @@
+.card-title a {
+    transition: all .1s ease;
+    font-family: "Playfair Display", serif;
+    color:black;
+    font-size: 32px;
+}
+.card{
+    margin-bottom: 20px;
+}
+.card-title a:hover{
+    color:orange;
+    text-decoration: underline!important;
+}
+.card-body .card-text1 {
+    color: #808080d7;
+    font-weight: 300;
+    font-size: 17px;
+}
+.card-body .ad-info span {
+    color: orange;
+}
+.pagination .page-link{
+    background-color: #cccccc75;
+    color:black;
+    box-shadow:none;
+    border:none;
+}
+.pagination .page-link:hover{
+    background-color: #183838;
+    color:white;
+}
+.pagination .page-item button{
+    border:1px solid #183838;
+    margin-right:5px;
+}
+.react-multi-carousel-dot-list{
+    background-color:#cccccc;
+}
+
+@media(max-width:768px){
+    .card-title a {
+        font-size: 28px;}
+}

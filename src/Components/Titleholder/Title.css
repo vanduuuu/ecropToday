@@ -1,0 +1,51 @@
+/* Style for the title holder to align items in a row */
+.title-holder {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Space between text and animated border */
+    flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+    padding: 20px;
+}
+
+/* Style for the text */
+.text {
+    font-size: 2rem;
+    color: green;
+    margin: 0;
+    white-space: nowrap;
+    font-weight: 700;
+}
+
+/* Style for the animated border */
+.animate-border {
+    background-color: #ddd;
+    height: 1px;
+    margin: 0; /* Remove margin if needed */
+    position: relative;
+    flex-grow: 1; /* Allow the border to expand and fill available space */
+    width: 100%; /* Ensure it takes the remaining width */
+}
+
+/* Style for the pseudo-element used to create the animated border */
+.animate-border:after {
+    animation: zumpX 40s linear infinite;
+    background-color: #44a05b;
+    border-radius: 50%;
+    content: "";
+    height: 7px;
+    position: absolute;
+    top: -3px; /* Adjust position as needed */
+    left: 0;
+    width: 7px;
+}
+
+/* Keyframes for animation */
+@keyframes zumpX {
+    0%, 100% {
+        left: 0;
+    }
+    
+    50% {
+        left: 100%;
+    }
+}
