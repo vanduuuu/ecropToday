@@ -1,0 +1,58 @@
+.archives-container {
+    padding: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #000;
+    padding: 8px;
+    vertical-align: top;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .label-cell {
+    font-weight: bold;
+  }
+  
+  .responsive-table {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .table thead, .table tbody, .table th, .table td, .table tr {
+      display: block;
+    }
+  
+    .table td {
+      padding: 10px;
+      position: relative;
+      text-align: left;
+    }
+  
+    .table td:before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 50%;
+      padding-left: 15px;
+      font-weight: bold;
+    }
+  
+    .text-center {
+      text-align: left;
+    }
+  
+    .table td:nth-child(4) {
+      text-align: right;
+    }
+  }
+

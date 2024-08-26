@@ -12,8 +12,10 @@
     align-items: center;
     justify-content: center;
   }
-  
-  .overlay {
+  table h4{
+    color:rgb(148, 142, 142);
+  }
+  .overlay3 {
     position: absolute;
     top: 0;
     left: 0;

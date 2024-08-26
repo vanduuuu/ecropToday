@@ -36,12 +36,12 @@ const Topnavbar = () => {
               <li class="topbar-one__info__item addr1">
                 <i class="fa-solid fa-location-dot"></i>
                 <a href="/" target="_blank">
-                  61, City Tower, Unit No 2, Parel, Mumbai, 400012
+                Plot No 80/81, Shop No 155, Vashi Plaza, Sec 17 Vashi, Mumbai City, Maharashtra, 400703
                 </a>
               </li>
               <li class="topbar-one__info__item">
                 <i class="fa-solid fa-envelope"></i>
-                <a href="/">editor@ecrop.co.in</a>
+                <a href="/">editor@ecroptoday.co.in</a>
               </li>
               <li class="topbar-one__info__item">
                 <i class="fa-solid fa-phone-volume"></i>

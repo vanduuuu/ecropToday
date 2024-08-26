@@ -1,6 +1,31 @@
 import React, { useState } from "react";
 import Title from "../Titleholder/Title";
-import slide1 from "../../Assets/background/food.webp";
+import img1 from "../../Assets/background/CLIMATE-SKILLS.webp";
+import img2 from "../../Assets/background/innovative-marine-cloud.jpg";
+import img3 from "../../Assets/background/Sustainability_Sector1.jpg";
+import img4 from "../../Assets/background/climate-change1.webp";
+import img5 from "../../Assets/background/carbon-footprint.jpg";
+import img6 from "../../Assets/background/type-soil.jpg";
+import img7 from "../../Assets/background/17-MAY.jpg";
+import img8 from "../../Assets/background/16-may2.jpg";
+import img9 from "../../Assets/background/fcfc.webp";
+import img10 from "../../Assets/background/Drone-soil.webp";
+import img11 from "../../Assets/background/satellite-remote1.webp";
+import img12 from "../../Assets/background/06-May-Blog.webp";
+import img13 from "../../Assets/background/03-May-Blog.webp";
+import img14 from "../../Assets/background/Key2.webp";
+import img15 from "../../Assets/background/esg-1.webp";
+import img16 from "../../Assets/background/organic-farm.webp";
+import img17 from "../../Assets/background/food.webp";
+import img18 from "../../Assets/background/water-waste.webp";
+import img19 from "../../Assets/background/EARTH-DAY.webp";
+import img20 from "../../Assets/background/blog-20.webp";
+import img21 from "../../Assets/background/plant-2.jpeg";
+import img22 from "../../Assets/background/BLOG.webp";
+import img23 from "../../Assets/background/5G-farming.jpeg";
+import img24 from "../../Assets/background/gdp.webp";
+import img25 from "../../Assets/background/01-Apr-Blog.webp";
+
 import { Link } from "react-router-dom";
 import "./Blog.css";
 import Sidebar from "../Sidebar/Sidebar";
@@ -9,109 +34,205 @@ const Blog = () => {
   // Sample data
   const allPosts = [
     {
-      "title": "1Climate Skills: A Sustainable Career Path",
+      "title": "Climate Skills: A Sustainable Career Path",
       "link": "https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path",
-      "image": slide1,
+      "image": img1,
       "excerpt": "Climate change is a long-term change in the average weather patterns...",
       "author": "AMARBEN PATNI",
       "date": "July 19, 2024"
     },
     {
-      "title": "2Climate Skills: A Sustainable Career Path",
-      "link": "https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path",
-      "image": slide1,
-      "excerpt": "Climate change is a long-term change in the average weather patterns...",
+      "title": "Innovative Marine Cloud Brightening Technology Tested to Combat Global Warming",
+      "link": "https://precisiongrowindia.blogspot.com/marine-cloud-brightening-technology-combat-global-warming",
+      "image": img2,
+      "excerpt": "In the face of increasing global temperatures and unprecedented climate change...",
       "author": "AMARBEN PATNI",
+      "date": "June 21, 2024"
+    },
+    {
+      "title": "Boosting Job Creation Through Sustainability: Renewable Energy, EVs, and Green Practices",
+      "link": "https://precisiongrowindia.blogspot.com/blog-post_18",
+      "image": img3,
+      "excerpt": "In recent years, the term “sustainability” has surged in popularity, driven...",
       "date": "July 19, 2024"
     },
     {
-      "title": "3Climate Skills: A Sustainable Career Path",
-      "link": "https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path",
-      "image": slide1,
-      "excerpt": "Climate change is a long-term change in the average weather patterns...",
+      "title": "Climate Change Threatens Vital Soil Biodiversity | Impact on Soil-Dwelling Species",
+      "link": "https://precisiongrowindia.blogspot.com/2024/06/impact-of-climate-change-on-soil-dwelling-species.html",
+      "image": img4,
+      "excerpt": "Soil-dwelling creatures are crucial for Earth's carbon cycle. Thousands of species, like mites and springtails...",
       "author": "AMARBEN PATNI",
-      "date": "July 19, 2024"
+      "date": "July 18, 2024"
     },
     {
-      "title": "4Climate Skills: A Sustainable Career Path",
-      "link": "https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path",
-      "image": slide1,
-      "excerpt": "Climate change is a long-term change in the average weather patterns...",
-      "author": "AMARBEN PATNI",
-      "date": "July 19, 2024"
-    },
-    {
-        "title": "5Climate Skills: A Sustainable Career Path",
-        "link": "https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path",
-        "image": slide1,
-        "excerpt": "Climate change is a long-term change in the average weather patterns...",
+        "title": "Understanding Carbon Footprint: Impact, Importance, and How to Reduce It",
+        "link": "https://precisiongrowindia.blogspot.com/understanding-carbon-footprint-impact-reduce",
+        "image": img5,
+        "excerpt": "Every time you charge your phone, start your bike, use a paper to write, or various...",
         "author": "AMARBEN PATNI",
-        "date": "July 19, 2024"
+        "date": "May 25, 2024"
       },
       {
-        "title": "6Climate Skills: A Sustainable Career Path",
-        "link": "https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path",
-        "image": slide1,
-        "excerpt": "Climate change is a long-term change in the average weather patterns...",
+        "title": "Discover the Rich Tapestry of Soils in India: A Journey Through Nature's Palette",
+        "link": "https://precisiongrowindia.blogspot.com/2024/05/rich-types-of-indian-soils.html",
+        "image": img6,
+        "excerpt": "The vast landscape of India is diverse in its availability of soil all across its length...",
         "author": "AMARBEN PATNI",
-        "date": "July 19, 2024"
+        "date": "May 21, 2024"
       },
       {
-        "title": "7Climate Skills: A Sustainable Career Path",
+        "title": "Understanding How Rainfall Affects Soil Erosion: The Physics Behind It",
         "link": "https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path",
-        "image": slide1,
-        "excerpt": "Climate change is a long-term change in the average weather patterns...",
+        "image": img7,
+        "excerpt": "How rainfall interacts with soil plays a significant role in causing soil erosion, a major issue...",
         "author": "AMARBEN PATNI",
-        "date": "July 19, 2024"
+        "date": "May 17, 2024"
       },
       {
-        "title": "8Climate Skills: A Sustainable Career Path",
-        "link": "https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path",
-        "image": slide1,
-        "excerpt": "Climate change is a long-term change in the average weather patterns...",
+        "title": "Why Soil Erosion is a Major Challenge for Sustainable Soil Management",
+        "link": "https://precisiongrowindia.blogspot.com/blog-post_16",
+        "image": img8,
+        "excerpt": "Despite almost a century of research and extension efforts, soil erosion by water...",
         "author": "AMARBEN PATNI",
-        "date": "July 19, 2024"
+        "date": "May 16, 2024"
       },
       {
-        "title": "9Climate Skills: A Sustainable Career Path",
-        "link": "https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path",
-        "image": slide1,
-        "excerpt": "Climate change is a long-term change in the average weather patterns...",
+        "title": "Unlocking Synergies: How the Paris Agreement and the 2030 Agenda Work Hand-in-Hand for a Sustainable Future",
+        "link": "https://precisiongrowindia.blogspot.com/paris-agreement-2030-agenda-sustainable-development-connections",
+        "image": img9,
+        "excerpt": "The 2030 Agenda and the Paris Agreement are both universal visions and are both based on being...",
         "author": "AMARBEN PATNI",
-        "date": "July 19, 2024"
+        "date": "May 11, 2024"
       },
       {
-        "title": "10Climate Skills: A Sustainable Career Path",
-        "link": "https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path",
-        "image": slide1,
-        "excerpt": "Climate change is a long-term change in the average weather patterns...",
-        "author": "AMARBEN PATNI",
-        "date": "July 19, 2024"
+        "title": "Drone Soil Analysis: Multispectral Remote Sensing for Soil Mapping",
+        "link": "https://precisiongrowindia.blogspot.com/drone-soil-analysis-multispectral",
+        "image": img10,
+        "excerpt": "Making farmland Sustainable and productive for a long period has become a pressing...",
+        "date": "May 9, 2024"
       },
       {
-        "title": "11Climate Skills: A Sustainable Career Path",
-        "link": "https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path",
-        "image": slide1,
-        "excerpt": "Climate change is a long-term change in the average weather patterns...",
+        "title": "Unlocking Insights: How Satellite Remote Sensing Revolutionizes Forest Fire Detection",
+        "link": "https://precisiongrowindia.blogspot.com/blog-post_07",
+        "image": img11,
+        "excerpt": "The word Sustainable is not just an uncommon word anymore but has become an important word of daily use...",
         "author": "AMARBEN PATNI",
-        "date": "July 19, 2024"
+        "date": "May 7, 2024"
       },
       {
-        "title": "12Climate Skills: A Sustainable Career Path",
-        "link": "https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path",
-        "image": slide1,
-        "excerpt": "Climate change is a long-term change in the average weather patterns...",
+        "title": "Is 2024 the Year of Sustainable Eco-Friendly Real Estate? Exploring Trends, Innovations, and Green Development",
+        "link": "https://precisiongrowindia.blogspot.com/blog-post",
+        "image": img12,
+        "excerpt": "The word Sustainable is not just an uncommon word anymore but has become an important word of daily use...",
         "author": "AMARBEN PATNI",
-        "date": "July 19, 2024"
+        "date": "May 6, 2024"
       },
       {
-        "title": "13Climate Skills: A Sustainable Career Path",
-        "link": "https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path",
-        "image": slide1,
-        "excerpt": "Climate change is a long-term change in the average weather patterns...",
+        "title": "Rising Tobacco Prices in Andhra as Brazil and Indonesia Crop Failures Hit Global Markets: What You Need to Know",
+        "link": "https://precisiongrowindia.blogspot.com/tobacco-prices-rise-andhra-crop-failure-brazil-indonesia",
+        "image": img13,
+        "excerpt": "Tobacco known as the ‘Golden Leaf’ is one of the most profitable commercial cash crops...",
         "author": "AMARBEN PATNI",
-        "date": "July 19, 2024"
+        "date": "May 2, 2024"
       },
+      {
+        "title": "Research and Development: Key to Safeguarding Food Security and Nutrition",
+        "link": "https://precisiongrowindia.blogspot.com/research-and-development-key-to",
+        "image": img14,
+        "excerpt": "India stands at a critical juncture in its food security narrative...",
+        "author": "AMARBEN PATNI",
+        "date": "May 1, 2024"
+      },
+      {
+        "title": "The Vital Role of ESG in Addressing Climate Change: Understanding its Impact, Importance and Solutions",
+        "link": "https://precisiongrowindia.blogspot.com/research-and-development-key-to",
+        "image": img15,
+        "excerpt": "Environmental, social, and governance (ESG) has become an important measurement to report on for businesses...",
+        "author": "AMARBEN PATNI",
+        "date": "April 29, 2024"
+      },
+      {
+        "title": "Is a 40 Lakh Yearly Income Possible with Organic Farming? Let’s Find Out Its Potential",
+        "link": "https://precisiongrowindia.blogspot.com/blog-post_27",
+        "image": img16,
+        "excerpt": "In today’s world if a man starts a business, he expects a certain return to propagate his venture to new heights...",
+        "author": "AMARBEN PATNI",
+        "date": "April 27, 2024"
+      },
+      {
+        "title": "Ending World Hunger: A Global Challenge for Food Security",
+        "link": "https://precisiongrowindia.blogspot.com/blog-post",
+        "image": img17,
+        "excerpt": "We have all felt that burning sensation in our stomach when we get hungry. This urgent demand...",
+        "author": "AMARBEN PATNI",
+        "date": "April 26, 2024"
+      },
+      {
+        "title": "Revolutionizing Agriculture: Using Wastewater to Water Crops Sustainably",
+        "link": "https://precisiongrowindia.blogspot.com/wastewater-irrigation",
+        "image": img18,
+        "excerpt": "In recent years, wastewater irrigation has gained significant attention as a potential solution to water scarcity in agriculture...",
+        "author": "AMARBEN PATNI",
+        "date": "April 23, 2024"
+      },
+      {
+        "title": "World Earth Day 2024 | Find out how plastics are affecting the environment",
+        "link": "https://precisiongrowindia.blogspot.com/plastics-impact-environment",
+        "image": img19,
+        "excerpt": "Earth is a beautiful life Sustaining planet in the solar system, it’s roughly 4.5 billion years old and is still...",
+        "author": "AMARBEN PATNI",
+        "date": "April 22, 2024"
+      },
+      {
+        "title": "Plant Disease Control Tips: Canker, And Other Fungal Diseases (Final Part)",
+        "link": "https://precisiongrowindia.blogspot.com/plant-disease-tips",
+        "image": img20,
+        "excerpt": "Plant blight is a common disease. Remember the potato famine in the 1840s? As a result of the blight, one million...",
+        "author": "AMARBEN PATNI",
+        "date": "April 20, 2024"
+      },
+      {
+        "title": "Exploring Plant Diseases Identification: A Guide (Part 2)",
+        "link": "https://precisiongrowindia.blogspot.com/common-plant-diseases2",
+        "image": img21,
+        "excerpt": "Powdery mildew is a common fungus that affects a wide variety of plants. It is easily identified and appears...",
+        "author": "AMARBEN PATNI",
+        "date": "April 19, 2024"
+      },
+      {
+        "title": "Exploring Common Plant Diseases: A Guide (Part 1)",
+        "link": "https://precisiongrowindia.blogspot.com/common-plant-diseases",
+        "image": img22,
+        "excerpt": "Like us humans, plants also get diseases and as we seek professional help to get better, plants also need proper...",
+        "author": "AMARBEN PATNI",
+        "date": "April 18, 2024"
+      },
+      {
+        "title": "12 Ways 5G Will Transform Farming and Agriculture",
+        "link": "https://precisiongrowindia.blogspot.com/how-5g-will-transform-farming-and",
+        "image": img23,
+        "excerpt": "How can 5G technology be set to shake up the world of farming and agriculture?",
+        "author": "AMARBEN PATNI",
+        "date": "April 17, 2024"
+      },
+      {
+        "title": "Understanding Green GDP And Its Implications For Sustainable Development",
+        "link": "https://precisiongrowindia.blogspot.com/green-gdp-sustain",
+        "image": img24,
+        "excerpt": "In today's global landscape, where environmental concerns are at the forefront of discussions, the concept of Green GDP...",
+        "author": "AMARBEN PATNI",
+        "date": "April 16, 2024"
+      },
+      {
+        "title": "Revolutionizing Agriculture With Automated Satellite Monitoring Service",
+        "link": "https://precisiongrowindia.blogspot.com/Agriculture-Revolutionizing",
+        "image": img25,
+        "excerpt": "In the face of global warming, agriculture is confronting unprecedented challenges. With rising temperatures impacting soil health...",
+        "author": "AMARBEN PATNI",
+        "date": "April 2, 2024"
+      },
+      
+     
   ];
 
   // Pagination state

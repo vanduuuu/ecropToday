@@ -1,29 +1,34 @@
 import React from "react";
 import Title from "../Titleholder/Title";
 import search from '../../Assets/icons/search.png';
-import s1img from '../../Assets/background/organic-farm.webp';
-import s2img from '../../Assets/background/food.webp';
+import s1img from "../../Assets/background/climate-change1.webp";
 import s3img from '../../Assets/background/gdp.webp';
+import s2img from "../../Assets/background/Drone-soil.webp";
+
 import './Sidebar.css'
+import { Link } from "react-router-dom";
 const Sidebar = () => {
   const sidebarr = [
     {
       img : s1img,
-      desc : "Understanding Green GDP And Its Implications For Sustainable Development",
-      authore : ' Amarben Patni',
-      date : '30 Aug 24',
-    },
-    {
-      img : s2img,
-      desc : "Understanding Green GDP And Its Implications For Sustainable Development",
-      authore : ' Amarben Patni',
-      date : '30 Aug 24',
+      desc : "Climate Change Threatens Vital Soil Biodiversity | Impact on Soil-Dwelling Species",
+      authore :'Amarben Patni',
+      date : '18 July 24',
+      linkkk:"https://precisiongrowindia.blogspot.com/impact-of-climate-change-on-soil-dwelling-species"
     },
     {
       img : s3img,
       desc : "Understanding Green GDP And Its Implications For Sustainable Development",
-      authore : ' Amarben Patni',
-      date : '30 Aug 24',
+      authore : 'Amarben Patni',
+      date : '05 April 24',
+      linkkk:"https://precisiongrowindia.blogspot.com/green-gdp-sustain"
+    },
+    {
+      img : s2img,
+      desc : "Drone Soil Analysis: Multispectral Remote Sensing for Soil Mapping",
+      authore : 'Amarben Patni',
+      date : '05 April 24',
+      linkkk:"https://precisiongrowindia.blogspot.com/drone-soil-analysis-multispectral"
     }
   ]
   return (
@@ -58,12 +63,12 @@ const Sidebar = () => {
     </div>
     <div class="col-md-8 col-8">
       <h6>
-        <a
-          href="https://precisiongrowindia.blogspot.com/green-gdp-sustain"
+        <Link
+          to={sidebar1.linkkk}
           target="_blank"
         >
          {sidebar1.desc}
-        </a>
+        </Link>
       </h6>
       <div class="ad-info">
         <i class="fa-regular fa-user mx-1"></i>{" "}

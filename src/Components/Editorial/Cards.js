@@ -15,6 +15,7 @@ import snehal from '../../Assets/images/snehal.webp';
 import pooja from '../../Assets/images/pooja.webp';
 
 import Downborder from "./Downborder";
+import Titletag from "../Titletag/Titletag";
 
 const Cards = () => {
   return (
@@ -33,19 +34,7 @@ const Cards = () => {
             </div>
           </div>
         </div>
-       
-        <div className="col-lg-4 col-md-6">
-          <div className="card">
-            <img src={narendra} alt="Amarben Patni" />
-            <h5 className="mt-3">Narendra Nor</h5>
-            <div className="cont">
-              <p className="mb-0 text-center">Asst. Eco-Conscious Editor</p>
-              <h6 className="m-0 p-1 text-success">
-                <i className="fa-solid fa-envelope mx-2"></i>editor@ecroptoday.co.in
-              </h6>
-            </div>
-          </div>
-        </div>
+    
         <div className="col-lg-4 col-md-6">
           <div className="card">
             <img src={swapnil} alt="Amarben Patni" />
@@ -55,6 +44,19 @@ const Cards = () => {
               <h6 className="m-0 p-1 text-success">
                 <i className="fa-solid fa-envelope mx-2"></i> editor@ecroptoday.co.in
 
+              </h6>
+            </div>
+          </div>
+        </div>
+           
+        <div className="col-lg-4 col-md-6">
+          <div className="card">
+            <img src={narendra} alt="Amarben Patni" />
+            <h5 className="mt-3">Narendra Nor</h5>
+            <div className="cont">
+              <p className="mb-0 text-center">Asst. Eco-Conscious Editor</p>
+              <h6 className="m-0 p-1 text-success">
+                <i className="fa-solid fa-envelope mx-2"></i>editor@ecroptoday.co.in
               </h6>
             </div>
           </div>
@@ -145,8 +147,9 @@ const Cards = () => {
             </div>
           </div>
         </div>
-        <span class="editorial-head"><i class="fa-solid fa-user-pen"></i></span>
-        <h1 class="text-center">EDITORIAL OFFICE</h1>
+        <Titletag icon="fa-solid fa-user-pen"
+        title="EDITORIAL OFFICE"
+        />
         <Downborder/>
         <div className="col-lg-4 col-md-6">
           <div className="card">

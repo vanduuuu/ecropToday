@@ -8,7 +8,8 @@ const Footer = () => {
       <div className="foot container">
         <div className="row foot-area">
           <div className="col-lg-3 col-md-5 foot-1 text-center">
-            <a href="https://ecrop.co.in/">
+            <a href="https://ecroptoday
+            .co.in/">
               <img src={footlogo} width="200" alt="e-CROP" />
             </a>
             <a
@@ -31,9 +32,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-lg-3 col-md-7 foot-2">
-            <h4 className="mb-3">Welcome to e-CROP Magazine</h4>
+            <h4 className="mb-3">Welcome to e-CROPTODAY Magazine</h4>
             <p>
-              Ecrop, your go-to online hub for agri-tech, explores modern
+            e-CROPTODAY, your go-to online hub for agri-tech, explores modern
               farming's nexus. Discover innovations enhancing sustainability,
               profitability, and crop production.
             </p>
@@ -66,7 +67,7 @@ const Footer = () => {
                   link: "https://precisiongrowindia.blogspot.com/",
                   icon: "blog.png",
                 },
-                { link: "#", icon: "flicker.png" },
+              
                 {
                   link: "https://on.soundcloud.com/BTa2Q",
                   icon: "soundcloud.png",

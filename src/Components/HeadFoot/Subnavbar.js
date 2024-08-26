@@ -30,9 +30,9 @@ const Subnavbar = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div className="container-fluid">
             <div className="logoimgMob">
-            <a className="navbar-brand w-100" href="#">
+            <Link className="navbar-brand w-100" to="/">
             <img src={logo} alt="" />
-          </a>
+          </Link>
             </div>
              <button
             className="navbar-toggler shadow-none"
@@ -64,8 +64,13 @@ const Subnavbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/archive">
                   Archives
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="https://ecrop.co.in/" target="_blank">
+                e-CROP
                 </Link>
               </li>
               <li className="nav-item">
@@ -74,29 +79,27 @@ const Subnavbar = () => {
                 </Link>
               </li>
               <li className="nav-item logoimg">
-                <Link className="navbar-brand" to="/">
+                <Link className="navbar-brand" to="https://ecroptoday.co.in/" target="_blank">
             <img src={logo} alt="" />
           </Link>
+          
                </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/guideline">
                 Guidelines For Author
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                Article Submission
-                </a>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="https://ecrop.co.in/">
-                e-CROP
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/submission">
+                Article Submission
+                </Link>
+              </li>
+            
+          
+              <li className="nav-item">
+                <Link className="nav-link" to="/contact">
                 Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

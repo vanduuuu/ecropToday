@@ -1,0 +1,16 @@
+.contwidth{
+    width:70%;
+    margin:auto
+}
+.contwidth h2 {
+    color: #2b9240;
+    margin-top: 60px;
+    text-decoration: underline;
+}
+
+.formwidth{
+    width:70%;
+    margin:auto;
+    background-color: #3d923b21;
+    margin-top: 30px;
+}

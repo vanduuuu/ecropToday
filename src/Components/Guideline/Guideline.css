@@ -1,0 +1,25 @@
+.guidediv {
+    width: 75%;
+    display: block;
+    margin: 20px auto;
+    /* background-color: #dcdcdc7d; */
+    padding: 30px 40px;
+}
+    .guidediv ul h5 {
+        text-decoration: underline;
+        font-size: 29px;
+    font-style: italic;
+    font-family: "Lora", serif;
+    font-weight: bolder;
+    color: #32757e;
+    }
+    .guidediv ul li{
+        list-style: square;
+        color: #32757e;
+    }
+
+        .guidediv p {
+            color: rgb(43, 41, 41);
+            font-size: 17px;
+        }
+    
