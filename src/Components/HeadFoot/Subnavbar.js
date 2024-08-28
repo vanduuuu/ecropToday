@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Topnavbar from "./Topnavbar";
 import './Subnavbar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from '../../Assets/images/vlogo.jpg';
 import { Link } from "react-router-dom";
 const Subnavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,7 +30,7 @@ const Subnavbar = () => {
         <div className="container-fluid">
             <div className="logoimgMob">
             <Link className="navbar-brand w-100" to="/">
-            <img src={logo} alt="" />
+            <img src='https://ecroptoday.azureedge.net/ecroptoday/vlogo.jpg' alt="" />
           </Link>
             </div>
              <button
@@ -80,7 +79,7 @@ const Subnavbar = () => {
               </li>
               <li className="nav-item logoimg">
                 <Link className="navbar-brand" to="https://ecroptoday.co.in/" target="_blank">
-            <img src={logo} alt="" />
+            <img src='https://ecroptoday.azureedge.net/ecroptoday/vlogo.jpg' alt="" />
           </Link>
           
                </li>

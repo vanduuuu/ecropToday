@@ -5,7 +5,7 @@
     width: 100%; /* Banner width is 80% of the screen */
     height: 300px; /* Adjust height as needed */
     margin: 0 auto; /* Centers the banner horizontally */
-    background-image: url('../../Assets/background/ecropToday-About.webp'); /* Replace with your image */
+    background-image: url('https://ecroptoday.azureedge.net/ecroptoday/ecropToday-About.webp'); /* Replace with your image */
     background-size: cover;
     background-position: center;
     display: flex;

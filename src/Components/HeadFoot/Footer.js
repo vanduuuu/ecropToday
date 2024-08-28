@@ -1,25 +1,24 @@
 import React from "react";
 import "./Footer.css"; // Import custom CSS
-import techvisit from '../../Assets/icons/techvisit.webp';
-import footlogo from '../../Assets/images/vlogo.jpg';
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer>
       <div className="foot container">
         <div className="row foot-area">
           <div className="col-lg-3 col-md-5 foot-1 text-center">
-            <a href="https://ecroptoday
+            <Link to="https://ecroptoday
             .co.in/">
-              <img src={footlogo} width="200" alt="e-CROP" />
-            </a>
-            <a
+              <img src="https://ecroptoday.azureedge.net/ecroptoday/vlogo.jpg" width="200" alt="e-CROP" />
+            </Link>
+            <Link
               className="techvisit"
-              href="https://www.techvisit.in/"
+              to="https://www.techvisit.in/"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={techvisit} alt="Tech Visit" className="mt-4" width="160"/>
-            </a>
+              <img src="https://ecroptoday.azureedge.net/ecroptoday/techvisit.webp" alt="Tech Visit" className="mt-4" width="160"/>
+            </Link>
             <div className="power2 mt-3">
               <p className="fw-bold" style={{ color: "orange" }}>
                 Powered by
@@ -74,12 +73,12 @@ const Footer = () => {
                 },
               ].map((social, index) => (
                 <li key={index}>
-                  <a href={social.link} target="_blank" rel="noreferrer">
+                  <Link to={social.link} target="_blank" rel="noreferrer">
                     <img
                       src={`https://precisiongrow.co.in/assets/img/${social.icon}`}
                       alt={social.icon}
                     />
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -109,9 +108,9 @@ const Footer = () => {
                 },
               ].map((post, index) => (
                 <li key={index}>
-                  <a href={post.link} className="aaa">
+                  <Link to={post.link} className="aaa">
                     {post.title}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -156,21 +155,15 @@ const Footer = () => {
           </span>
         </p>
       </div>
-      <a
-        id="scroll-top"
-        style={{ display: "none" }}
-        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-      >
-        <span></span>
-      </a>
-      <a
-        href="https://wa.me/+918097626333?text=Welcome To e-CROP Magazine"
+    
+      <Link
+        to="https://wa.me/+918097626333?text=Welcome To e-CROP Magazine"
         className="whatsapp_btn circle-50"
         target="_blank"
         rel="noreferrer"
       >
         <i className="fa-brands fa-whatsapp"></i>
-      </a>
+      </Link>
     </footer>
   );
 };

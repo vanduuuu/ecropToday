@@ -3,7 +3,6 @@ import Titletag from '../Titletag/Titletag';
 import Downborder from '../Editorial/Downborder';
 import './Submission.css';
 import { Link } from 'react-router-dom';
-import whup from '../../Assets/background/whyp-ecp.webp'
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 
 const Submission = () => {
@@ -45,7 +44,7 @@ const Submission = () => {
         </div>
         <div class="whup-banner">
 <Link to="https://wa.me/8097626333?text=" target="_blank">
-<img src={whup} alt="whup"/></Link>
+<img src="https://ecroptoday.azureedge.net/ecroptoday/whyp-ecp.webp" alt="whup"/></Link>
 </div>
       </div>
     </div>

@@ -1,30 +1,26 @@
 import React from "react";
 import Title from "../Titleholder/Title";
-import search from '../../Assets/icons/search.png';
-import s1img from "../../Assets/background/climate-change1.webp";
-import s3img from '../../Assets/background/gdp.webp';
-import s2img from "../../Assets/background/Drone-soil.webp";
 
 import './Sidebar.css'
 import { Link } from "react-router-dom";
 const Sidebar = () => {
   const sidebarr = [
     {
-      img : s1img,
+      img : "https://ecroptoday.azureedge.net/ecroptoday/climate-change1.webp",
       desc : "Climate Change Threatens Vital Soil Biodiversity | Impact on Soil-Dwelling Species",
       authore :'Amarben Patni',
       date : '18 July 24',
       linkkk:"https://precisiongrowindia.blogspot.com/impact-of-climate-change-on-soil-dwelling-species"
     },
     {
-      img : s3img,
+      img : "https://ecroptoday.azureedge.net/ecroptoday/gdp.webp",
       desc : "Understanding Green GDP And Its Implications For Sustainable Development",
       authore : 'Amarben Patni',
       date : '05 April 24',
       linkkk:"https://precisiongrowindia.blogspot.com/green-gdp-sustain"
     },
     {
-      img : s2img,
+      img : "https://ecroptoday.azureedge.net/ecroptoday/Drone-soil.webp",
       desc : "Drone Soil Analysis: Multispectral Remote Sensing for Soil Mapping",
       authore : 'Amarben Patni',
       date : '05 April 24',
@@ -43,7 +39,7 @@ const Sidebar = () => {
               placeholder="Type here..."
             />
             <button type="submit" class="search-button">
-              <img src={search} alt="Search" />
+              <img src="https://ecroptoday.azureedge.net/ecroptoday/search.png" alt="Search" />
             </button>
           </div>
         </div>

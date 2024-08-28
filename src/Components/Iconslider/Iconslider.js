@@ -1,63 +1,50 @@
 import React from 'react';
 import './Iconslider.css'
-import imgg1 from '../../Assets/icons/part-1.webp'
-import imgg2 from '../../Assets/icons/part-3.webp'
-import imgg3 from '../../Assets/icons/part-4.webp'
-import imgg4 from '../../Assets/icons/part-5.webp'
-import imgg5 from '../../Assets/icons/part-6.webp'
-import imgg6 from '../../Assets/icons/part-7.webp'
-import imgg7 from '../../Assets/icons/part-8.webp'
-import imgg8 from '../../Assets/icons/part-9.webp'
-import imgg9 from '../../Assets/icons/part-10.webp'
-import imgg10 from '../../Assets/icons/part-11.webp'
-import imgg11 from '../../Assets/icons/part-12.webp'
-import imgg12 from '../../Assets/icons/part-13.webp'
-import imgg13 from '../../Assets/icons/part-14.webp'
-import imgg14 from '../../Assets/icons/part-15.webp'
+
 
 const Iconslider = () => {
     const iconslider = [
         {
-            img : imgg1
+            img : "https://ecroptoday.azureedge.net/ecroptoday/part-1.webp"
         },
         {
-            img : imgg2
+            img : "https://ecroptoday.azureedge.net/ecroptoday/part-3.webp"
         },
         {
-            img : imgg3
+            img : "https://ecroptoday.azureedge.net/ecroptoday/part-4.webp"
         },
         {
-            img : imgg4
+            img : "https://ecroptoday.azureedge.net/ecroptoday/part-5.webp"
         },
         {
-            img : imgg5
+            img : "https://ecroptoday.azureedge.net/ecroptoday/part-6.webp"
         },
         {
-            img : imgg6
+            img : "https://ecroptoday.azureedge.net/ecroptoday/part-7.webp"
         },
         {
-            img : imgg7
+            img : "https://ecroptoday.azureedge.net/ecroptoday/part-8.webp"
         },
         {
-            img : imgg8
+            img : "https://ecroptoday.azureedge.net/ecroptoday/part-9.webp"
         },
         {
-            img : imgg9
+            img : "https://ecroptoday.azureedge.net/ecroptoday/part-10.webp"
         },
         {
-            img : imgg10
+            img : "https://ecroptoday.azureedge.net/ecroptoday/part-11.webp"
         },
         {
-            img : imgg11
+            img : "https://ecroptoday.azureedge.net/ecroptoday/part-12.webp"
         },
         {
-            img : imgg12
+            img :"https://ecroptoday.azureedge.net/ecroptoday/part-13.webp"
         },
         {
-            img : imgg13
+            img : "https://ecroptoday.azureedge.net/ecroptoday/part-14.webp"
         },
         {
-            img : imgg14
+            img : "https://ecroptoday.azureedge.net/ecroptoday/part-15.webp"
         }
     ]
   return (

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('./Assets/background/Leaf.webp');
+    background-image: url('https://ecroptoday.azureedge.net/ecroptoday/Leaf.webp');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;

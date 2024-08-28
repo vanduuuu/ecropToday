@@ -56,7 +56,10 @@
 .overlay-content {
   margin-bottom: 20px; /* Space between text and button */
 }
-
+.overlay-content span{
+  content: '';
+  border-bottom:1px solid rgba(255, 166, 0, 0.438);
+}
 .view-pdf-button {
   background-color: #2c9341; /* Button color */
   color: #fff; /* Button text color */

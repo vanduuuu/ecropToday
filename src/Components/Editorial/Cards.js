@@ -1,159 +1,107 @@
 import React from "react";
 import "./Cards.css";
-import amarben from '../../Assets/images/Amarben-Patni.webp';
-import narendra from '../../Assets/images/narendra.webp';
-import swapnil from '../../Assets/images/swapnil.webp';
-import rohit from '../../Assets/images/Rohit.png';
-import krishna from '../../Assets/images/Krishna.jpg';
-import rajni from '../../Assets/images/rajni.webp';
-import dipti from '../../Assets/images/dipti.webp';
-import vandana from '../../Assets/images/vandana.webp';
-import sayali from '../../Assets/images/Sayali.png';
-import ravi from '../../Assets/images/Ravi.png';
-import bhakti from '../../Assets/images/bhakti.jpg';
-import snehal from '../../Assets/images/snehal.webp';
-import pooja from '../../Assets/images/pooja.webp';
 
 import Downborder from "./Downborder";
 import Titletag from "../Titletag/Titletag";
 
 const Cards = () => {
+  const edcards=[
+    {
+      "name" : "Chief Sustainability Officer",
+      "img" : "https://ecroptoday.azureedge.net/ecroptoday/Amarben-Patni.webp",
+      "desig" : "Chief Sustainability Officer", 
+      "email" : "chiefeditor@ecroptoday.co.in",
+      "icon" : "fa-solid fa-envelope",
+    },
+    {
+      "name" : "Swapnil Tiwari",
+      "img" : "https://ecroptoday.azureedge.net/ecroptoday/narendra.webp",
+      "desig" : "Eco-Conscious Editor", 
+      "email" : "editor@ecroptoday.co.in",
+      "icon" : "fa-solid fa-envelope",
+    },
+    {
+      "name" : "Narendra Nor",
+      "img" : "https://ecroptoday.azureedge.net/ecroptoday/swapnil.webp",
+      "desig" : "Asst. Eco-Conscious Editor", 
+      "email" : "editor@ecroptoday.co.in",
+      "icon" : "fa-solid fa-envelope",
+    },
+    {
+      "name" : "Rohit Sakpal",
+      "img" : "https://ecroptoday.azureedge.net/ecroptoday/Rohit.png",
+      "desig" : "Sustainability Editor", 
+    },
+    {
+      "name" : "Krishna Shambhu Kanu",
+      "img" : "https://ecroptoday.azureedge.net/ecroptoday/Krishna.jpg",
+      "desig" : "Assistant Sustainability Director", 
+      "email" : "krishna@ecroptoday.co.in",
+      "icon" : "fa-solid fa-envelope",
+    },
+    {
+      "name" : "Rajni Rajaram Dhankanthi",
+      "img" : "https://ecroptoday.azureedge.net/ecroptoday/rajni.webp",
+      "desig" : "Senior Green Practices Editor", 
+      "email" : "rajni@ecroptoday.co.in",
+      "icon" : "fa-solid fa-envelope",
+    },
+    {
+      "name" : "Dipti Suresh Chavan",
+      "img" : "https://ecroptoday.azureedge.net/ecroptoday/dipti.webp",
+      "desig" : "Sustainable Web Developer", 
+    },
+    {
+      "name" : "Vandana Prajapati",
+      "img" : "https://ecroptoday.azureedge.net/ecroptoday/vandana.webp",
+      "desig" : "Chief Content Ecologist", 
+    },
+    {
+      "name" : "Sayali Jadhav",
+      "img" : "https://ecroptoday.azureedge.net/ecroptoday/Sayali.png",
+      "desig" : "Senior Eco-Friendly Designer", 
+      "email" : "sayali@ecroptoday.co.in",
+      "icon" : "fa-solid fa-envelope",
+    },
+    {
+      "name" : "Ravi Gupta",
+      "img" : "https://ecroptoday.azureedge.net/ecroptoday/RAVI.png",
+      "desig" : "Environmental Design Specialist", 
+    },
+    {
+      "name" : "Bhakti Patil",
+      "img" : "https://ecroptoday.azureedge.net/ecroptoday/bhakti.jpg",
+      "desig" : "Eco-Outreach Coordinator", 
+    },
+  ]
   return (
    <>
     <div className="editorial-card"> {/* Ensure this class is applied to the parent */}
       <div className="row">
-        <div className="col-lg-4 col-md-6">
+        {edcards.map((cardE, index) => (
+          <div className="col-lg-4 col-md-6">
           <div className="card">
-            <img src={amarben} alt="Amarben Patni" />
-            <h5 className="mt-3">Amarben Patni</h5>
+            <img src={cardE.img} alt="Amarben Patni" />
+            <h5 className="mt-3">{cardE.name}</h5>
             <div className="cont">
-              <p className="mb-0 text-center">Chief Sustainability Officer</p>
+              <p className="mb-0 text-center">{cardE.desig}</p>
               <h6 className="m-0 p-1 text-success">
-                <i className="fa-solid fa-envelope mx-2"></i>chiefeditor@ecroptoday.co.in
+                <i className={`${cardE.icon} mx-2`}></i>{cardE.email}
               </h6>
             </div>
           </div>
         </div>
-    
-        <div className="col-lg-4 col-md-6">
-          <div className="card">
-            <img src={swapnil} alt="Amarben Patni" />
-            <h5 className="mt-3">Swapnil Tiwari</h5>
-            <div className="cont">
-              <p className="mb-0 text-center">Eco-Conscious Editor</p>
-              <h6 className="m-0 p-1 text-success">
-                <i className="fa-solid fa-envelope mx-2"></i> editor@ecroptoday.co.in
-
-              </h6>
-            </div>
-          </div>
-        </div>
-           
-        <div className="col-lg-4 col-md-6">
-          <div className="card">
-            <img src={narendra} alt="Amarben Patni" />
-            <h5 className="mt-3">Narendra Nor</h5>
-            <div className="cont">
-              <p className="mb-0 text-center">Asst. Eco-Conscious Editor</p>
-              <h6 className="m-0 p-1 text-success">
-                <i className="fa-solid fa-envelope mx-2"></i>editor@ecroptoday.co.in
-              </h6>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <div className="card">
-            <img src={rohit} alt="Amarben Patni" />
-            <h5 className="mt-3">Rohit Sakpal</h5>
-            <div className="cont">
-              <p className="mb-0 text-center">Sustainability Editor</p>
-              
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <div className="card">
-            <img src={krishna} alt="Amarben Patni" />
-            <h5 className="mt-3">Krishna Shambhu Kanu</h5>
-            <div className="cont">
-              <p className="mb-0 text-center">Assistant Sustainability Director</p>
-              <h6 className="m-0 p-1 text-success">
-                <i className="fa-solid fa-envelope mx-2"></i> krishna@ecroptoday.co.in
-              </h6>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <div className="card">
-            <img src={rajni} alt="Amarben Patni" />
-            <h5 className="mt-3">Rajni Rajaram Dhankanthi</h5>
-            <div className="cont">
-              <p className="mb-0 text-center">Senior Green Practices Editor</p>
-              <h6 className="m-0 p-1 text-success">
-                <i className="fa-solid fa-envelope mx-2"></i>rajni@ecroptoday.co.in
-              </h6>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <div className="card">
-            <img src={dipti} alt="Amarben Patni" />
-            <h5 className="mt-3">Dipti Suresh Chavan</h5>
-            <div className="cont">
-              <p className="mb-0 text-center">Sustainable Web Developer</p>
-             
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <div className="card">
-            <img src={vandana} alt="Amarben Patni" />
-            <h5 className="mt-3">Vandana Prajapati</h5>
-            <div className="cont">
-              <p className="mb-0 text-center">Chief Content Ecologist</p>
-              
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <div className="card">
-            <img src={sayali} alt="Amarben Patni" />
-            <h5 className="mt-3">Sayali Jadhav</h5>
-            <div className="cont">
-              <p className="mb-0 text-center">Senior Eco-Friendly Designer</p>
-              <h6 className="m-0 p-1 text-success">
-                <i className="fa-solid fa-envelope mx-2"></i>sayali@ecroptoday.co.in
-              </h6>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <div className="card">
-            <img src={ravi} alt="Amarben Patni" />
-            <h5 className="mt-3">Ravi Gupta</h5>
-            <div className="cont">
-              <p className="mb-0 text-center">Environmental Design Specialist</p>
-             
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <div className="card">
-            <img src={bhakti} alt="Amarben Patni" />
-            <h5 className="mt-3">Bhakti Patil</h5>
-            <div className="cont">
-              <p className="mb-0 text-center">Eco-Outreach Coordinator</p>
-             
-            </div>
-          </div>
+        ))}
+        
         </div>
         <Titletag icon="fa-solid fa-user-pen"
         title="EDITORIAL OFFICE"
         />
         <Downborder/>
-        <div className="col-lg-4 col-md-6">
+    <div className="row">
+    <div className="col-lg-4 col-md-6">
           <div className="card">
-            <img src={snehal} alt="Amarben Patni" />
+            <img src="https://ecroptoday.azureedge.net/ecroptoday/snehal.webp" alt="Amarben Patni" />
             <h5 className="mt-3">Snehal Nagwekar</h5>
             <div className="cont">
               <p className="mb-0 text-center">Sustainability Manager</p>
@@ -163,7 +111,7 @@ const Cards = () => {
         </div>
         <div className="col-lg-4 col-md-6">
           <div className="card">
-            <img src={pooja} alt="Amarben Patni" />
+            <img src="https://ecroptoday.azureedge.net/ecroptoday/pooja.webp" alt="Amarben Patni" />
             <h5 className="mt-3">Pooja Ankush Bhise</h5>
             <div className="cont">
               <p className="mb-0 text-center">Sustainability Secretary</p>
@@ -171,8 +119,9 @@ const Cards = () => {
             </div>
           </div>
         </div>
-      </div>
     </div>
+      </div>
+
 
 
    </>

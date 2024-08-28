@@ -1,32 +1,25 @@
 import React from "react";
-import slide1 from "../../Assets/background/food.webp";
-import slide2 from "../../Assets/background/gdp.webp";
-import slide3 from "../../Assets/background/organic-farm.webp";
 import "./Home.css";
 import Magazine from "./Magazine";
 import Iconslider from "../Iconslider/Iconslider";
-import climate from '../../Assets/background/CLIMATE-SKILLS.webp'
-import innovative from '../../Assets/background/innovative-marine-cloud.jpg'
-import climatechange from '../../Assets/background/climate-change.jpg'
-
 import { Link } from "react-router-dom";
 
 const Home = () => {
   const slides = [
     {
-      img: slide1,
+      img: "https://ecroptoday.azureedge.net/ecroptoday/food.webp",
       title: "Amarben Patni",
       date: "25 April 2024",
       linkk:"https://precisiongrowindia.blogspot.com/blog-post",
     },
     {
-      img: slide2,
+      img: "https://ecroptoday.azureedge.net/ecroptoday/gdp.webp",
       title: "Amarben Patni",
       date: "16 April 2024",
       linkk:"https://precisiongrowindia.blogspot.com/green-gdp-sustain",
     },
     {
-      img: slide3,
+      img: "https://ecroptoday.azureedge.net/ecroptoday/organic-farm.webp",
       title: "Amarben Patni",
       date: "27 April 2024",
       linkk:"https://precisiongrowindia.blogspot.com/blog-post_27",
@@ -129,17 +122,17 @@ const Home = () => {
               <div className="row ">
                 <div className="col-md-6">
                   <div className="carousel-inner1">
-                    <Link to="https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path" target="_blank"><img src={climate} className="d-block w-100 h-zoom" alt=""/></Link>
+                    <Link to="https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path" target="_blank"><img src="https://ecroptoday.azureedge.net/ecroptoday/CLIMATE-SKILLS.webp" className="d-block w-100 h-zoom" alt=""/></Link>
                   </div>
                 </div>
                 <div className="col-md-6 ">
                   <div className="carousel-inner1">
-                    <Link to="https://precisiongrowindia.blogspot.com/marine-cloud-brightening-technology-combat-global-warming" target="_blank"><img src={innovative} className="d-block w-100 h-zoom" alt=""/></Link>
+                    <Link to="https://precisiongrowindia.blogspot.com/marine-cloud-brightening-technology-combat-global-warming" target="_blank"><img src="https://ecroptoday.azureedge.net/ecroptoday/innovative-marine-cloud.jpg" className="d-block w-100 h-zoom" alt=""/></Link>
                   </div>
                 </div>
                 <div className="col-md-12">
                 <div className="carousel-inner1">
-                    <Link to="https://precisiongrowindia.blogspot.com/2024/07/Adapting-to-Climate-Change-Why-We-Need-to-Act-Now.html" target="_blank"><img src={climatechange} className="d-block w-100 h-zoom" alt=""/></Link>
+                    <Link to="https://precisiongrowindia.blogspot.com/2024/07/Adapting-to-Climate-Change-Why-We-Need-to-Act-Now.html" target="_blank"><img src="https://ecroptoday.azureedge.net/ecroptoday/climate-change.jpg" className="d-block w-100 h-zoom" alt=""/></Link>
                   </div> 
                 </div>
               </div>

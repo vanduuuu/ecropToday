@@ -4,34 +4,29 @@ import "react-multi-carousel/lib/styles.css";
 import "./Magazine.css";
 import Blog from "./Blog";
 import Title from "../Titleholder/Title";
-import june from "../../Assets/Issues-img/june-banner.jpg";
-import july from "../../Assets/Issues-img/july_magazine.jpg";
-import august from "../../Assets/Issues-img/August_magzinE.webp";
-import junePdf from '../../Assets/Magazine-pdf/june.pdf'
-import Julypdf from '../../Assets/Magazine-pdf/july.pdf'
-import augustPdf from '../../Assets/Magazine-pdf/august.pdf'
+      
 const magazinee = [
   {
-    img:june,
+    img:"https://ecroptoday.azureedge.net/ecroptoday/june-banner.jpg",
     title:"Revolutionizing Agriculture The Future Of Farming",
-    pdflink:junePdf,
+    pdflink:"https://ecroptoday.azureedge.net/ecroptoday/june.pdf",
     Pro_type:"Magazine",
     Published_by:"Tech Vist IT Pvt Ltd",
     Publication_M:"June",
     Mode:"Print & Online"
   },
   {
-    img:july,
+    img:"https://ecroptoday.azureedge.net/ecroptoday/july_magazine.jpg",
     title:"Ecrop Your Personal Farming Companion",
-    pdflink:Julypdf,
+    pdflink:"https://ecroptoday.azureedge.net/ecroptoday/july.pdf",
     Pro_type:"Magazine",
     Published_by:"Tech Vist IT Pvt Ltd",
     Publication_M:"July",
     Mode:"Print & Online"
   },{
-    img:august,
+    img:"https://ecroptoday.azureedge.net/ecroptoday/August_magzinE.webp",
     title:"A Way To A Sustainable Future",
-    pdflink:augustPdf,
+    pdflink:"https://ecroptoday.azureedge.net/ecroptoday/august.pdf",
     Pro_type:"Magazine",
     Published_by:"Tech Vist IT Pvt Ltd",
     Publication_M:"August",
@@ -81,10 +76,10 @@ const Magazine = () => {
               <div className="overlay">
                 <div className="overlay-content">
                   <h4>{maga.title}</h4>
-                  <p>Product Type : {maga.Pro_type}</p>
-                  <p>Published By : {maga.Published_by}</p>
-                  <p>Publication Month : {maga.Publication_M}</p>
-                  <p>Mode : {maga.Mode}</p>
+                  <p><span>Product Type</span> : {maga.Pro_type}</p>
+                  <p><span>Published By</span> : {maga.Published_by}</p>
+                  <p><span>Publication Month</span> : {maga.Publication_M}</p>
+                  <p><span>Mode</span> : {maga.Mode}</p>
 
                 </div>
                 <button 

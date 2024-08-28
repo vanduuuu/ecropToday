@@ -1,11 +1,10 @@
 import React from 'react'
-import btmborder from '../../Assets/images/Border.png'
 import './Downborder.css'
 const Downborder = () => {
   return (
     <div>
         <div class="downborder">
-            <img src={btmborder} alt="downborder"/>
+            <img src='https://ecroptoday.azureedge.net/ecroptoday/Border.png' alt="downborder"/>
         </div>
     </div>
   )
