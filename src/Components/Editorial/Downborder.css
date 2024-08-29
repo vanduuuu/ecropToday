@@ -5,3 +5,8 @@
     width: 35%;
     transform: scaleY(-1);
 }
+@media(max-width:600px){
+    .downborder img {
+        width: 90%;
+    }
+}

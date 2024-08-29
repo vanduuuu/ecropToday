@@ -48,3 +48,8 @@
     font-weight: bold;
     display: block;
 }
+@media(max-width:600px){
+    .editorial-card .card{
+        width:100%;
+    }
+}

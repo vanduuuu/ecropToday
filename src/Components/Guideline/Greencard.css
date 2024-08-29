@@ -31,3 +31,12 @@
     color: #d60c0c;
     text-align: center;
 }
+@media(max-width:600px){
+    .guidediv {
+       width:100%;
+       padding:0 10px;
+    }
+    .guidediv ul h5 {
+        font-size: 25px;}
+       
+}

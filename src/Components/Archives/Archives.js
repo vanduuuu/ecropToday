@@ -99,17 +99,15 @@ const Archives = () => {
                 {archive.articles.map((article, idx) => (
                   <React.Fragment key={idx}>
                     <tr>
-                      <td className="text-center">{article.s_no}</td>
+                      <td className="text-center sr">{article.s_no}</td>
                       <td className="label-cell">Authors:</td>
                       <td>{article.authors}</td>
-                      <td></td>
-                      <td className="text-center"></td>
                     </tr>
                     <tr>
                       <td></td>
                       <td className="label-cell">Article title :</td>
                       <td>{article.title}</td>
-                      <td className="text-center">{article.page_no}</td>
+                      <td className="text-center pg">{article.page_no}</td>
                       <td className="text-center">
                         <a href={article.pdf_url} target="_blank" rel="noopener noreferrer">
                           <i className="fa-solid fa-file-pdf text-danger fs-5"></i>

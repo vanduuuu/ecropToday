@@ -125,7 +125,7 @@ const Home = () => {
                     <Link to="https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path" target="_blank"><img src="https://ecroptoday.azureedge.net/ecroptoday/CLIMATE-SKILLS.webp" className="d-block w-100 h-zoom" alt=""/></Link>
                   </div>
                 </div>
-                <div className="col-md-6 ">
+                <div className="col-md-6 h-sec-img">
                   <div className="carousel-inner1">
                     <Link to="https://precisiongrowindia.blogspot.com/marine-cloud-brightening-technology-combat-global-warming" target="_blank"><img src="https://ecroptoday.azureedge.net/ecroptoday/innovative-marine-cloud.jpg" className="d-block w-100 h-zoom" alt=""/></Link>
                   </div>

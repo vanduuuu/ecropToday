@@ -200,3 +200,13 @@
     justify-content: center;
     align-items: center;
 }
+@media(max-width:600px){
+    .whup-banner img {
+        width: 100%;}
+        .sub-div::before{
+            left:22%;
+        }
+        .sub-div h3{
+            font-size:22px;
+        }
+}

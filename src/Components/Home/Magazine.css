@@ -87,10 +87,13 @@
 
 @media (max-width: 600px) {
   .carousel-item1 {
-    height: 250px;
+    height: 100%;
     width: 100%;
   }
   .carousel-container {
     padding: 0;
+  }
+  footer{
+    padding: 0px !important;
   }
 }

@@ -41,3 +41,8 @@
     .card-title a {
         font-size: 28px;}
 }
+@media(max-width:600px){
+    .card-title a {
+        font-size: 20px;
+    }
+}

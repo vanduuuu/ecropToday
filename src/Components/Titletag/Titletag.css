@@ -13,3 +13,12 @@
     text-shadow: 2px 2px 2px #a77f06 !important;
     font-weight: 800;
 }
+@media(max-width:600px){
+    .editorial-card h1{
+        font-size:20px;
+    }
+    .editorial-head i{
+        padding-left:35%;
+        margin:0;
+    }
+}

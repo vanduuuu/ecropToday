@@ -30,3 +30,14 @@
             margin-top:20px;
         }
     }
+    @media(max-width:600px){
+        .carousel-inner1 {
+            height: auto;
+        }
+        .text {
+            font-size: 20px!important;
+        }
+        .h-sec-img{
+            margin-top:20px;
+        }        
+    }

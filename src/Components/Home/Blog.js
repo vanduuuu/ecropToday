@@ -273,13 +273,7 @@ const Blog = () => {
                 </div>
               </div>
                ))}
-            </div>
-            
-         
-         {/* sidebar here */}
-            <Sidebar/>
-         {/* Navigation here */}
-           <div className="col-md-8">
+                 <div className="col-md-8">
            <nav aria-label="Page navigation">
           <ul className="pagination justify-content-center">
             <li className="page-item">
@@ -316,6 +310,13 @@ const Blog = () => {
           </ul>
         </nav> 
            </div>
+            </div>
+            
+         
+         {/* sidebar here */}
+            <Sidebar/>
+         {/* Navigation here */}
+         
         </div>
      
       </div>

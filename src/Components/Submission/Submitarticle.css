@@ -14,3 +14,8 @@
     background-color: #3d923b21;
     margin-top: 30px;
 }
+@media(max-width:600px){
+    .contwidth,.formwidth {
+        width:100%;
+    }
+}

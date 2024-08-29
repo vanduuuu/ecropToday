@@ -59,7 +59,13 @@
     .table thead, .table tbody, .table th, .table td, .table tr {
       display: block;
     }
-  
+    .archives-container table thead th:nth-child(1), .archives-container table thead th:nth-child(3), .archives-container table thead th:nth-child(4),.archives-container table thead th:nth-child(5) {
+      display: none;
+    }
+    .archives-container table tbody td.sr:nth-child(1), .archives-container table tbody td.pg:nth-child(4) {
+      display: none;
+      background-color: red!important;
+    }
     .table td {
       padding: 10px;
       position: relative;
