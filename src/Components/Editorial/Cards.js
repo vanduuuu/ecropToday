@@ -7,7 +7,7 @@ import Titletag from "../Titletag/Titletag";
 const Cards = () => {
   const edcards=[
     {
-      "name" : "Chief Sustainability Officer",
+      "name" : "Amarben Patni",
       "img" : "https://ecroptoday.azureedge.net/ecroptoday/Amarben-Patni.webp",
       "desig" : "Chief Sustainability Officer", 
       "email" : "chiefeditor@ecroptoday.co.in",
@@ -15,14 +15,14 @@ const Cards = () => {
     },
     {
       "name" : "Swapnil Tiwari",
-      "img" : "https://ecroptoday.azureedge.net/ecroptoday/narendra.webp",
+      "img" : "https://ecroptoday.azureedge.net/ecroptoday/swapnil.webp",
       "desig" : "Eco-Conscious Editor", 
       "email" : "editor@ecroptoday.co.in",
       "icon" : "fa-solid fa-envelope",
     },
     {
       "name" : "Narendra Nor",
-      "img" : "https://ecroptoday.azureedge.net/ecroptoday/swapnil.webp",
+      "img" : "https://ecroptoday.azureedge.net/ecroptoday/narendra.webp",
       "desig" : "Asst. Eco-Conscious Editor", 
       "email" : "editor@ecroptoday.co.in",
       "icon" : "fa-solid fa-envelope",

@@ -74,7 +74,7 @@ const About = () => {
     </tr>
     <tr>
       <th>Copyright</th>
-      <td>© Copyright 2024. All Rights Reserved by Precision Grow (A Unit of Tech Visit IT Pvt Ltd)</td>
+      <td>© 2024. All Rights Reserved by Precision Grow (A Unit of Tech Visit IT Pvt Ltd)</td>
     </tr>
     <tr>
       <th>Starting Year</th>

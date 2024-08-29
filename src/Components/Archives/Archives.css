@@ -26,6 +26,34 @@
     max-width: 100%;
     margin: 0 auto;
   }
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: green;
+    color: white;
+    border-color: green;
+  }
+  
+  .pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+  .pagination button:hover:not(:disabled) {
+    background-color: #e2e6ea;
+    color:green
+  }
   
   @media (max-width: 768px) {
     .table thead, .table tbody, .table th, .table td, .table tr {

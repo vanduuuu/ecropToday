@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import Topnavbar from "./Topnavbar";
 import './Subnavbar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from "react-router-dom";
+
 const Subnavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation(); // Get the current path
 
   const handleToggle = () => {
     setIsOpen((prevIsOpen) => !prevIsOpen);
@@ -28,12 +30,12 @@ const Subnavbar = () => {
       <Topnavbar />
       <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div className="container-fluid">
-            <div className="logoimgMob">
+          <div className="logoimgMob">
             <Link className="navbar-brand w-100" to="/">
-            <img src='https://ecroptoday.azureedge.net/ecroptoday/vlogo.jpg' alt="" />
-          </Link>
-            </div>
-             <button
+              <img src='https://ecroptoday.azureedge.net/ecroptoday/vlogo.jpg' alt="" />
+            </Link>
+          </div>
+          <button
             className="navbar-toggler shadow-none"
             type="button"
             aria-controls="navbarNav"
@@ -53,51 +55,74 @@ const Subnavbar = () => {
           >
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link
+                  className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}
+                  aria-current="page"
+                  to="/"
+                >
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about">
+                <Link
+                  className={`nav-link ${location.pathname === '/about' ? 'active' : ''}`}
+                  to="/about"
+                >
                   About Us
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/archive">
+                <Link
+                  className={`nav-link ${location.pathname === '/archive' ? 'active' : ''}`}
+                  to="/archive"
+                >
                   Archives
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="https://ecrop.co.in/" target="_blank">
-                e-CROP
+                <Link
+                  className="nav-link"
+                  to="https://ecrop.co.in/"
+                  target="_blank"
+                >
+                  e-CROP
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/editorial">
+                <Link
+                  className={`nav-link ${location.pathname === '/editorial' ? 'active' : ''}`}
+                  to="/editorial"
+                >
                   Editorial Board
                 </Link>
               </li>
               <li className="nav-item logoimg">
                 <Link className="navbar-brand" to="https://ecroptoday.co.in/" target="_blank">
-            <img src='https://ecroptoday.azureedge.net/ecroptoday/vlogo.jpg' alt="" />
-          </Link>
-          
-               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/guideline">
-                Guidelines For Author
+                  <img src='https://ecroptoday.azureedge.net/ecroptoday/vlogo.jpg' alt="" />
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/submission">
-                Article Submission
+                <Link
+                  className={`nav-link ${location.pathname === '/guideline' ? 'active' : ''}`}
+                  to="/guideline"
+                >
+                  Guidelines For Author
                 </Link>
               </li>
-            
-          
               <li className="nav-item">
-                <Link className="nav-link" to="/contact">
-                Contact
+                <Link
+                  className={`nav-link ${location.pathname === '/submission' ? 'active' : ''}`}
+                  to="/submission"
+                >
+                  Article Submission
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`}
+                  to="/contact"
+                >
+                  Contact
                 </Link>
               </li>
             </ul>
