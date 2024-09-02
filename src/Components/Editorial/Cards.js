@@ -73,6 +73,11 @@ const Cards = () => {
       "img" : "https://ecroptoday.azureedge.net/ecroptoday/bhakti.jpg",
       "desig" : "Eco-Outreach Coordinator", 
     },
+    {
+      "name" : "Sweta Jha",
+      "img" : "https://ecroptoday.azureedge.net/ecroptoday/shweta.png",
+      "desig" : "Community Engagement Officer", 
+    },
   ]
   return (
    <>
