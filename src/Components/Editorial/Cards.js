@@ -9,7 +9,7 @@ const Cards = () => {
     {
       "name" : "Amarben Patni",
       "img" : "https://ecroptoday.azureedge.net/ecroptoday/Amarben-Patni.webp",
-      "desig" : "Chief Sustainability Officer", 
+      "desig" : "Chief Editor", 
       "email" : "chiefeditor@ecroptoday.co.in",
       "icon" : "fa-solid fa-envelope",
     },
@@ -23,7 +23,7 @@ const Cards = () => {
     {
       "name" : "Narendra Nor",
       "img" : "https://ecroptoday.azureedge.net/ecroptoday/narendra.webp",
-      "desig" : "Asst. Eco-Conscious Editor", 
+      "desig" : "Publishing manager", 
       "email" : "editor@ecroptoday.co.in",
       "icon" : "fa-solid fa-envelope",
     },
@@ -35,7 +35,7 @@ const Cards = () => {
     {
       "name" : "Krishna Shambhu Kanu",
       "img" : "https://ecroptoday.azureedge.net/ecroptoday/Krishna.jpg",
-      "desig" : "Assistant Sustainability Director", 
+      "desig" : "Assistant Editor ", 
       "email" : "krishna@ecroptoday.co.in",
       "icon" : "fa-solid fa-envelope",
     },
@@ -49,7 +49,7 @@ const Cards = () => {
     {
       "name" : "Dipti Suresh Chavan",
       "img" : "https://ecroptoday.azureedge.net/ecroptoday/dipti.webp",
-      "desig" : "Sustainable Web Developer", 
+      "desig" : "Sustainable Web Developer ", 
     },
     {
       "name" : "Vandana Prajapati",
@@ -58,7 +58,7 @@ const Cards = () => {
     },
     {
       "name" : "Sayali Jadhav",
-      "img" : "https://ecroptoday.azureedge.net/ecroptoday/Sayali.png",
+      "img" : "https://ecroptoday.azureedge.net/ecroptoday/sayali.png",
       "desig" : "Senior Eco-Friendly Designer", 
       "email" : "sayali@ecroptoday.co.in",
       "icon" : "fa-solid fa-envelope",
@@ -66,7 +66,7 @@ const Cards = () => {
     {
       "name" : "Ravi Gupta",
       "img" : "https://ecroptoday.azureedge.net/ecroptoday/RAVI.png",
-      "desig" : "Environmental Design Specialist", 
+      "desig" : "Environmental Designer", 
     },
     {
       "name" : "Bhakti Patil",
@@ -75,7 +75,7 @@ const Cards = () => {
     },
     {
       "name" : "Sweta Jha",
-      "img" : "https://ecroptoday.azureedge.net/ecroptoday/shweta.png",
+      "img" : "https://ecroptoday.azureedge.net/ecroptoday/sweta.png",
       "desig" : "Community Engagement Officer", 
     },
   ]

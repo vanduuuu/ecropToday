@@ -8,6 +8,22 @@ const Blog = () => {
   // Sample data
   const allPosts = [
     {
+      "title": "Sustainable Agriculture: The Key to a Greener Future and Food Security",
+      "link": "https://precisiongrowindia.blogspot.com/blog-post_14",
+      "image": "https://ecroptoday.azureedge.net/ecroptoday/understanding-sustainable-agriculture.webp",
+      "excerpt": "The world’s population is now above 8 billion and the resources are falling...",
+      "author": "AMARBEN PATNI",
+      "date": "August 14, 2024"
+    },
+    {
+      "title": "7 Innovative Green Logistics Trends Revolutionizing Sustainable Supply Chains in 2024",
+      "link": "https://precisiongrowindia.blogspot.com/green-logistics-sustainable-solutions",
+      "image": "https://ecroptoday.azureedge.net/ecroptoday/green-logistics.webp",
+      "excerpt": "Climate change is one of the leading crises in the world and it has been a priority....",
+      "author": "AMARBEN PATNI",
+      "date": "July 30, 2024"
+    },
+    {
       "title": "Climate Skills: A Sustainable Career Path",
       "link": "https://precisiongrowindia.blogspot.com/climate-skills-sustainable-career-path",
       "image": "https://ecroptoday.azureedge.net/ecroptoday/CLIMATE-SKILLS.webp",
@@ -23,21 +39,25 @@ const Blog = () => {
       "author": "AMARBEN PATNI",
       "date": "June 21, 2024"
     },
+   
     {
       "title": "Boosting Job Creation Through Sustainability: Renewable Energy, EVs, and Green Practices",
       "link": "https://precisiongrowindia.blogspot.com/blog-post_18",
       "image": "https://ecroptoday.azureedge.net/ecroptoday/Sustainability_Sector1.jpg",
       "excerpt": "In recent years, the term “sustainability” has surged in popularity, driven...",
-      "date": "July 19, 2024"
+      "date": "June 18, 2024"
     },
+    
     {
       "title": "Climate Change Threatens Vital Soil Biodiversity | Impact on Soil-Dwelling Species",
       "link": "https://precisiongrowindia.blogspot.com/2024/06/impact-of-climate-change-on-soil-dwelling-species.html",
       "image": "https://ecroptoday.azureedge.net/ecroptoday/climate-change1.webp",
       "excerpt": "Soil-dwelling creatures are crucial for Earth's carbon cycle. Thousands of species, like mites and springtails...",
       "author": "AMARBEN PATNI",
-      "date": "July 18, 2024"
+      "date": "June 05, 2024"
     },
+    
+ 
     {
         "title": "Understanding Carbon Footprint: Impact, Importance, and How to Reduce It",
         "link": "https://precisiongrowindia.blogspot.com/understanding-carbon-footprint-impact-reduce",

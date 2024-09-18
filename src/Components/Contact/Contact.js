@@ -42,7 +42,7 @@ const Contact = () => {
                </div>
                <div className="col-lg-6 col-md-12">
                <h1>Send us an email</h1>
-               <h5><span>mail@ecroptoday.co.in</span></h5>
+               <h5><span>editor@ecroptoday.co.in</span></h5>
                </div>
              </div>
         

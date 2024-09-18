@@ -23,7 +23,8 @@ const magazinee = [
     Published_by:"Tech Vist IT Pvt Ltd",
     Publication_M:"July",
     Mode:"Print & Online"
-  },{
+  },
+  {
     img:"https://ecroptoday.azureedge.net/ecroptoday/August_magzinE.webp",
     title:"A Way To A Sustainable Future",
     pdflink:"https://ecroptoday.azureedge.net/ecroptoday/August1.pdf",
@@ -31,7 +32,16 @@ const magazinee = [
     Published_by:"Tech Vist IT Pvt Ltd",
     Publication_M:"August",
     Mode:"Print & Online"
-  }
+  },
+  {
+    img:"https://ecroptoday.azureedge.net/ecroptoday/sept-coverpg.jpg",
+    title:"Empowering Agriculture Ganesha's Blueprint for a Sustainable Future",
+    pdflink:"https://ecroptoday.azureedge.net/ecroptoday/september.pdf",
+    Pro_type:"Magazine",
+    Published_by:"Tech Vist IT Pvt Ltd",
+    Publication_M:"September",
+    Mode:"Print & Online"
+  },
 ]
 // Define responsive breakpoints for Carousel
 const responsive = {
