@@ -66,6 +66,7 @@
     max-width: 34px;
     margin-bottom: 10px;
     padding: 0px 3px 0px;
+    margin-right: 10px;
 }
   #scroll-top {
     position: fixed;
@@ -73,7 +74,9 @@
     right: 40px;
     cursor: pointer;
   }
-
+  .recent-posts li a:hover {
+    color: #ffc107;
+}
   @media(max-width:768px){
     .foot-1, .foot-2, .foot-3{
       margin-top:20px;

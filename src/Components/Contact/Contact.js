@@ -36,7 +36,7 @@ const Contact = () => {
              <div className="row">
                <div className="col-lg-6 col-md-12">
                  <ul style={{listStyle:'none'}}>
-                   <li><img className="imgh" src="https://precisiongrow.co.in/assets/img/icon/india-flag.webp" loading="lazy" alt="" /><h6>India</h6></li>
+                   <li><img className="imgh" src="https://webpagecdnstorage.blob.core.windows.net/precisiongrow/india-flag.webp" loading="lazy" alt="" /><h6>India</h6></li>
                    <li><span>MOBILE</span> : +91 - 8097626333</li>
                  </ul>
                </div>

@@ -24,7 +24,7 @@ const Footer = () => {
                 Powered by
               </p>
               <img
-                src="https://precisiongrow.co.in/assets/img/sap-b1.webp"
+                src="https://webpagecdnstorage.blob.core.windows.net/precisiongrow/sap-b1.webp"
                 alt="SAP B1"
                 width="200"
               />
@@ -41,47 +41,43 @@ const Footer = () => {
               Follow Us On
             </p>
             <ul className="social2">
-              {[
-                {
-                  link: "https://twitter.com/i/flow/login?redirect_after_login=%2Fprecision_grow",
-                  icon: "twitter.png",
-                },
-                {
-                  link: "https://www.facebook.com/electroniccrop/",
-                  icon: "fb.png",
-                },
-                {
-                  link: "https://www.instagram.com/electronic_crop/",
-                  icon: "insta.png",
-                },
-                {
-                  link: "https://www.linkedin.com/company/electronic-crop/",
-                  icon: "linkdin.png",
-                },
-                {
-                  link: "https://www.youtube.com/channel/UCt1nu8YiUMjnvckNLfepa5g",
-                  icon: "ytb.png",
-                },
-                {
-                  link: "https://precisiongrowindia.blogspot.com/",
-                  icon: "blog.png",
-                },
-              
-                {
-                  link: "https://on.soundcloud.com/BTa2Q",
-                  icon: "soundcloud.png",
-                },
-              ].map((social, index) => (
-                <li key={index}>
-                  <Link to={social.link} target="_blank" rel="noreferrer">
-                    <img
-                      src={`https://precisiongrow.co.in/assets/img/${social.icon}`}
-                      alt={social.icon}
-                    />
-                  </Link>
-                </li>
-              ))}
-            </ul>
+  {[
+    {
+      link: "https://twitter.com/i/flow/login?redirect_after_login=%2Fprecision_grow",
+      icon: "fab fa-twitter",
+    },
+    {
+      link: "https://www.facebook.com/electroniccrop/",
+      icon: "fab fa-facebook-f",
+    },
+    {
+      link: "https://www.instagram.com/electronic_crop/",
+      icon: "fab fa-instagram",
+    },
+    {
+      link: "https://www.linkedin.com/company/electronic-crop/",
+      icon: "fab fa-linkedin-in",
+    },
+    {
+      link: "https://www.youtube.com/channel/UCt1nu8YiUMjnvckNLfepa5g",
+      icon: "fab fa-youtube",
+    },
+    {
+      link: "https://precisiongrowindia.blogspot.com/",
+      icon: "fab fa-blogger",
+    },
+    {
+      link: "https://on.soundcloud.com/BTa2Q",
+      icon: "fab fa-soundcloud",
+    },
+  ].map((social, index) => (
+    <li key={index}>
+      <a href={social.link} target="_blank" rel="noreferrer">
+        <i className={social.icon} style={{ fontSize: '20px',color:'white'}}></i>
+      </a>
+    </li>
+  ))}
+</ul>
           </div>
           <div className="col-lg-3 col-md-6 foot-3">
             <h4>Recent Posts</h4>
