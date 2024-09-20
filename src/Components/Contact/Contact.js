@@ -78,7 +78,7 @@ const Contact = () => {
                   <div className="my-3">
                     <div className="loading">Loading</div>
                     <div className="error-message"></div>
-                    <div className="sent-message">Your message has been sent. Thank you!</div>
+                    <div className="sent-message">Your message has been sent. Thank you!!</div>
                   </div>
                   <div className="text-center"><button type="submit">Send Message</button></div>
                 </form>
