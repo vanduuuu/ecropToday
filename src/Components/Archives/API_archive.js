@@ -176,7 +176,97 @@ const API_archive = [
         // More articles
       ]
     },
-   
+    {
+      month: "August 2024",
+      volume: "Volume-1 Issue-3",
+      articles: [
+        {
+          s_no: 1,
+          authors: "Swpanil Tiwari",
+          title: "We Should Be Taught About Sustainable Practices in School",
+          page_no: "5-7",
+          pdf_url: "https://ecroptoday.azureedge.net/ecroptoday/Aug_artical_1.pdf"
+        },
+        {
+            s_no: 2,
+            authors: "Narendra Nor",
+            title: "Sustainability Sector to Boost Job Creation",
+            page_no: "8-10",
+            pdf_url: "https://ecroptoday.azureedge.net/ecroptoday/Aug_artical_2.pdf"
+          },
+          {
+            s_no: 3,
+            authors: "Rajni Dhankanthi",
+            title: "India Encounters Substantial Challenges in the Agriculture Sector",
+            page_no: "12-15",
+            pdf_url: "https://ecroptoday.azureedge.net/ecroptoday/Aug_artical_3.pdf"
+          },
+          {
+            s_no: 4,
+            authors: "Kirti Rawal",
+            title: "Understanding the Components of Soil: An Overview of Soil Profile",
+            page_no: "16-18",
+            pdf_url: "https://ecroptoday.azureedge.net/ecroptoday/Aug_artical_4.pdf"
+          },
+          {
+            s_no: 5,
+            authors: "Krishna Kanu",
+            title: "Understanding Natural Cycles that Impact Soil",
+            page_no: "20-21",
+            pdf_url: "https://ecroptoday.azureedge.net/ecroptoday/Aug_artical_5.pdf"
+          },
+          {
+            s_no: 6,
+            authors: "Dipti Chavan",
+            title: "Carbon Footprint: How Our Actions Today Impact the Planet Tomorrow",
+            page_no: "22-24",
+            pdf_url: "https://ecroptoday.azureedge.net/ecroptoday/Aug_artical_6.pdf"
+          },
+          {
+            s_no: 7,
+            authors: "Vandana Prajapati",
+            title: "The Importance of R&D in Addressing Agricultural",
+            page_no: "26-28",
+            pdf_url: "https://ecroptoday.azureedge.net/ecroptoday/Aug_artical_7.pdf"
+          },
+          {
+            s_no: 8,
+            authors: "Swpanil Tiwari",
+            title: "ICAR CTCRI Celebrates 61st Foundation Day in the Presence of the Hon’ble Governor of Kerala",
+            page_no: "30-32",
+            pdf_url: "https://ecroptoday.azureedge.net/ecroptoday/Aug_artical_8.pdf"
+          },
+          {
+            s_no: 9,
+            authors: "Pooja Bhise",
+            title: "Warming Is Getting Worse. So, They Just Tested a Way to Deflect the Sun",
+            page_no: "34-35",
+            pdf_url: "https://ecroptoday.azureedge.net/ecroptoday/Aug_artical_9.pdf"
+          },
+          {
+            s_no: 10,
+            authors: "Swpanil Tiwari",
+            title: "Precision Grow: Transforming Crop Health Monitoring with the e-CROP Device at ICAR’s 96th Foundation Day",
+            page_no: "36-37",
+            pdf_url: "https://ecroptoday.azureedge.net/ecroptoday/Aug_artical_10.pdf"
+          },
+          {
+            s_no: 11,
+            authors: "Neeraj Dakua",
+            title: "Save our Soil: Innovative Approaches to Combat Soil Erosion",
+            page_no: "40-42",
+            pdf_url: "https://ecroptoday.azureedge.net/ecroptoday/Aug_artical_11.pdf"
+          },
+          {
+            s_no: 12,
+            authors: "Snehal Nagwekar",
+            title: "Farmers Benefiting from High-Yielding Varieties of Chinese Potato, Elephant Foot Yam, and Cassava",
+            page_no: "43-45",
+            pdf_url: "https://ecroptoday.azureedge.net/ecroptoday/Aug_artical_12.pdf"
+          },
+        // More articles
+      ]
+    },
     
     // More months
   ];

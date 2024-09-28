@@ -8,6 +8,15 @@ const Blog = () => {
   // Sample data
   const allPosts = [
     {
+      "title": "Think Green, Live Green For A Sustainable Future",
+      "link": "https://precisiongrowindia.blogspot.com/think-green-live-green-sustainable-future",
+      "image": "https://ecroptoday.azureedge.net/ecroptoday/think-greenn.webp",
+      "excerpt": "Living green isn’t just a trend—it’s a mindset, a way of life that allows us to take responsibility for our impact on the planet....",
+      "author": "AMARBEN PATNI",
+      "date": "September 28, 2024"
+    },
+    {
+
       "title": "Sustainable Agriculture: The Key to a Greener Future and Food Security",
       "link": "https://precisiongrowindia.blogspot.com/blog-post_14",
       "image": "https://ecroptoday.azureedge.net/ecroptoday/understanding-sustainable-agriculture.webp",
@@ -225,7 +234,7 @@ const Blog = () => {
         "author": "AMARBEN PATNI",
         "date": "April 2, 2024"
       },
-      
+    
      
   ];
 

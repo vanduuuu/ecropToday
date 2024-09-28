@@ -27,7 +27,7 @@ const magazinee = [
   {
     img:"https://ecroptoday.azureedge.net/ecroptoday/August_magzinE.webp",
     title:"A Way To A Sustainable Future",
-    pdflink:"https://ecroptoday.azureedge.net/ecroptoday/August1.pdf",
+    pdflink:"https://ecroptoday.azureedge.net/ecroptoday/August.pdf",
     Pro_type:"Magazine",
     Published_by:"Tech Vist IT Pvt Ltd",
     Publication_M:"August",
