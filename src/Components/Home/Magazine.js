@@ -6,13 +6,40 @@ import Blog from "./Blog";
 import Title from "../Titleholder/Title";
       
 const magazinee = [
-  {
+ {
+    img:"https://ecroptoday.azureedge.net/ecroptoday/October-Magzine.jpeg",
+    title:"Empowering The Next Generation: A New Era in Agriculture",
+    pdflink:"https://ecroptoday.azureedge.net/ecroptoday/October_magazine.pdf",
+    Pro_type:"Magazine",
+    Published_by:"Tech Vist IT Pvt Ltd",
+    Publication_M:"October",
+    Mode:"Print & Online"
+  },
+       {
+    img:"https://ecroptoday.azureedge.net/ecroptoday/sept-coverpg.jpg",
+    title:"Empowering Agriculture Ganesha's Blueprint for a Sustainable Future",
+    pdflink:"https://ecroptoday.azureedge.net/ecroptoday/september.pdf",
+    Pro_type:"Magazine",
+    Published_by:"Tech Vist IT Pvt Ltd",
+    Publication_M:"September",
+    Mode:"Print & Online"
+  },
+      {
     img:"https://ecroptoday.azureedge.net/ecroptoday/june-banner.jpg",
     title:"Revolutionizing Agriculture The Future Of Farming",
     pdflink:"https://ecroptoday.azureedge.net/ecroptoday/june.pdf",
     Pro_type:"Magazine",
     Published_by:"Tech Vist IT Pvt Ltd",
     Publication_M:"June",
+    Mode:"Print & Online"
+  },
+       {
+    img:"https://ecroptoday.azureedge.net/ecroptoday/August_magzinE.webp",
+    title:"A Way To A Sustainable Future",
+    pdflink:"https://ecroptoday.azureedge.net/ecroptoday/August.pdf",
+    Pro_type:"Magazine",
+    Published_by:"Tech Vist IT Pvt Ltd",
+    Publication_M:"August",
     Mode:"Print & Online"
   },
   {
@@ -24,24 +51,9 @@ const magazinee = [
     Publication_M:"July",
     Mode:"Print & Online"
   },
-  {
-    img:"https://ecroptoday.azureedge.net/ecroptoday/August_magzinE.webp",
-    title:"A Way To A Sustainable Future",
-    pdflink:"https://ecroptoday.azureedge.net/ecroptoday/August.pdf",
-    Pro_type:"Magazine",
-    Published_by:"Tech Vist IT Pvt Ltd",
-    Publication_M:"August",
-    Mode:"Print & Online"
-  },
-  {
-    img:"https://ecroptoday.azureedge.net/ecroptoday/sept-coverpg.jpg",
-    title:"Empowering Agriculture Ganesha's Blueprint for a Sustainable Future",
-    pdflink:"https://ecroptoday.azureedge.net/ecroptoday/september.pdf",
-    Pro_type:"Magazine",
-    Published_by:"Tech Vist IT Pvt Ltd",
-    Publication_M:"September",
-    Mode:"Print & Online"
-  },
+ 
+ 
+
 ]
 // Define responsive breakpoints for Carousel
 const responsive = {
