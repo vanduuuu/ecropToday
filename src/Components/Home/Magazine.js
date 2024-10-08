@@ -24,16 +24,7 @@ const magazinee = [
     Publication_M:"September",
     Mode:"Print & Online"
   },
-      {
-    img:"https://ecroptoday.azureedge.net/ecroptoday/june-banner.jpg",
-    title:"Revolutionizing Agriculture The Future Of Farming",
-    pdflink:"https://ecroptoday.azureedge.net/ecroptoday/june.pdf",
-    Pro_type:"Magazine",
-    Published_by:"Tech Vist IT Pvt Ltd",
-    Publication_M:"June",
-    Mode:"Print & Online"
-  },
-       {
+  {
     img:"https://ecroptoday.azureedge.net/ecroptoday/August_magzinE.webp",
     title:"A Way To A Sustainable Future",
     pdflink:"https://ecroptoday.azureedge.net/ecroptoday/August.pdf",
@@ -51,7 +42,15 @@ const magazinee = [
     Publication_M:"July",
     Mode:"Print & Online"
   },
- 
+  {
+    img:"https://ecroptoday.azureedge.net/ecroptoday/june-banner.jpg",
+    title:"Revolutionizing Agriculture The Future Of Farming",
+    pdflink:"https://ecroptoday.azureedge.net/ecroptoday/june.pdf",
+    Pro_type:"Magazine",
+    Published_by:"Tech Vist IT Pvt Ltd",
+    Publication_M:"June",
+    Mode:"Print & Online"
+  },
  
 
 ]
