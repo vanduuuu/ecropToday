@@ -9,7 +9,7 @@ const magazinee = [
  {
     img:"https://ecroptoday.azureedge.net/ecroptoday/October-Magzine.jpeg",
     title:"Empowering The Next Generation: A New Era in Agriculture",
-    pdflink:"https://ecroptoday.azureedge.net/ecroptoday/October_magazine.pdf",
+    pdflink:"https://ecroptoday.azureedge.net/ecroptoday/October-magazine.pdf",
     Pro_type:"Magazine",
     Published_by:"Tech Vist IT Pvt Ltd",
     Publication_M:"October",
